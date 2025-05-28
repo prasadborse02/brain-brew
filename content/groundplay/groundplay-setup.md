@@ -2,6 +2,8 @@
 title: GroundPlay setup on local
 ---
 
+> A sports platform that brings together players for various sports. Related to [[football-explained-part1|Football structure]] and inspired by the need for better sports community tools.
+
 > Before setting up the application, you must have docker installed in your system
 
 # Database Setup
@@ -218,3 +220,9 @@ While triggers are good practice to keep your data clean, but at the same time t
 	```
 
 > Let me know, if I'm wrong or missing out on something
+
+---
+
+**Related:** 
+- [[part 1|Python Dependency Management]] - Learn proper Docker isolation practices
+- [[draft it is|Sports TakeHub]] - Another sports platform concept

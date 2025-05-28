@@ -10,8 +10,19 @@ This space is my **digital garden** — a place to grow, document, and share eve
 
 You’ll find:
 - **Notes** on topics I'm diving into 📚
-- **Blogs** about tech, experiments, and ideas 💡
+- **Blogs** about tech, [[draft it is|experiments]], and ideas 💡
 - **Personal life moments** that I want to capture and reflect on ✨
+
+## 🗂️ Current Content
+
+### 🛠️ Technology & Development
+- [[part 1|Python Dependency Management]] - Hard-learned lessons about production environments
+- [[groundplay-setup|GroundPlay Local Setup]] - Sports platform database and app configuration
+
+### ⚽ Sports & Projects
+- [[football-explained-part1|Football Structure Explained]] - How football is organized across Europe
+- [[draft it is|Sports TakeHub Vision]] - Building the ultimate sports prediction platform
+- [[brainpump1-hottake|Sports TakeHub Problem Analysis]] - Technical deep-dive into platform challenges
 
 This garden isn't meant to be perfect — it's a living, evolving space for thoughts, creativity, and growth. 🌱
 

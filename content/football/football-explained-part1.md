@@ -7,6 +7,8 @@ Football (don't call it soccer) is the world’s most popular sport, organized a
 
 ---
 
+**Related Projects:** This knowledge forms the foundation for sports apps like [[groundplay-setup|GroundPlay]] and platforms like [[draft it is|Sports TakeHub]] that aim to enhance the fan experience.
+
 ## 1. International Competitions (Country vs Country)
 
 - **FIFA World Cup**  
