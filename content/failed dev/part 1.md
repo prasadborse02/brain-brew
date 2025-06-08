@@ -1,5 +1,5 @@
 ---
-title: What You Should Learn About Python Dependency Management
+title: Python Dependency Management
 draft: false
 tags:
   - python

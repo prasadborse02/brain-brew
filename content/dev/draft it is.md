@@ -1,5 +1,5 @@
 ---
-title: 🏟️ The Hot Take Hub — Your Fandom, Truth, Scorecard
+title: Side Project: Hot Take Hub
 draft: false
 tags:
   - sports
