@@ -2,8 +2,7 @@
 title: The Half Marathon Plan
 draft: false
 tags:
-  - half-maathon
-  - running
+  - half-marathon
 ---
 # 🏁 My Journey to the Half Marathon: July 13, 2025 - Revised Plan
 
