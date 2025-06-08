@@ -1,5 +1,5 @@
 ---
-title: Side Project: Hot Take Hub
+title: Side Project - Hot Take Hub
 draft: false
 tags:
   - sports
