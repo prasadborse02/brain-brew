@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - v4
+
+env:
+  THEME_NAME: lesswrong
  
 permissions:
   contents: read
