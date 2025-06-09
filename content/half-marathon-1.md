@@ -4,8 +4,6 @@ draft: false
 tags:
   - half-marathon
 ---
-# 🏁 My Journey to the Half Marathon: July 13, 2025 - Revised Plan
-
 ## 🌟 The Story
 Running a marathon has always been a dream — something I used to think was out of reach. But on June 7, 2025, I ran 4.5 km, and that was the beginning. It wasn’t much, but it was something — my very first real step. 
 
