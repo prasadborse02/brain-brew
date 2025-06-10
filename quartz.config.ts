@@ -18,21 +18,21 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Offside",
-        body: "Overpass",
+        header: "Space Grotesk",
+        body: "Inter",
         code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#928374",
-          tertiary: "#a89984",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#0f0f23",
+          lightgray: "#1a1a2e",
+          gray: "#7209b7",
+          darkgray: "#c4b5fd",
+          dark: "#e5e7eb",
+          secondary: "#00ff9f",
+          tertiary: "#ff6b6b",
+          highlight: "rgba(0, 255, 159, 0.1)",
+          textHighlight: "#4c1d95",
         },
         // darkMode: {
         //   light: "#2b2b2b",
@@ -46,15 +46,15 @@ const config: QuartzConfig = {
         //   textHighlight: "#7b6e1b",
         // },
         darkMode: {
-          light: "#373534",        // Darker background for better contrast  
-          lightgray: "#494745",    // Subtle contrast for UI elements  
-          gray: "#8d8d8d",         // Medium gray for secondary elements  
-          darkgray: "#d4d4d4",     // Well-balanced gray for subtext and secondary text  
-          dark: "#fcf2d8",         // Warm beige for main text (readable but not harsh)  
-          secondary: "#feb976",    // Muted golden-yellow for buttons and accents  
-          tertiary: "#bb8a3e",     // Darker gold for subheadings (less bright)  
-          highlight: "rgba(131, 165, 152, 0.3)",  // Soft teal-green for background highlights  
-          textHighlight: "#7b6e1b", // Muted teal-blue for text highlights (clear contrast with white text)  
+          light: "#0a0a0f",
+          lightgray: "#16161f",
+          gray: "#8b5cf6",
+          darkgray: "#d8b4fe",
+          dark: "#f3f4f6",
+          secondary: "#10f596",
+          tertiary: "#ef4444",
+          highlight: "rgba(16, 245, 150, 0.1)",
+          textHighlight: "#581c87",
         }
       },
     },

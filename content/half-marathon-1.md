@@ -76,5 +76,3 @@ Let me be completely honest about where I'm starting from:
 **Goal:** Drastically reduce mileage for full recovery and energy storage.
 - **Runs:** Run 1: 4 km (Very Easy), Run 2: 2-3 km (Very Easy), Race Day: Half Marathon (21.1 km)!
 - **Non-Running:** Primarily REST. Light walking, gentle stretching. Focus on carb-loading and hydration.
-
----
