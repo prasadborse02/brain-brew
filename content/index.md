@@ -4,11 +4,6 @@ title: Currently Brewing
 
 ![[e17ab9681bec36303a67cd0e13a7b170.gif]]
 
-```poetry-ind
-"वाऱ्याशी स्पर्धा नाही माझी, पण मी थांबतही नाही.
-मी चालतोय स्वतःच्या रस्त्याने, कारण माझं गंतव्य वेगळंच आहे."
-```
-
 Hi, I'm Prasad — an engineer, sports enthusiast, and digital creator who believes in learning by building.
 
 This is my **digital garden**, where I cultivate ideas, document discoveries, and share the journey of continuous learning. Here, thoughts grow organically, experiments take root, and insights bloom over time.

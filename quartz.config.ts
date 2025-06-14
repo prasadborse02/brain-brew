@@ -4,7 +4,6 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Brain Brew",
-    pageTitleSuffix: " • Engineer's Dump",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
