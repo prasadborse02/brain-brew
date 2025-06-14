@@ -1,5 +1,6 @@
 ---
 title: Tale of 2 GitHub Accounts
+date: 2025-06-08T12:31:00-00:00
 draft: false
 tags:
   - github

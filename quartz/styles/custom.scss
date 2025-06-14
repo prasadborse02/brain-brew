@@ -1,3 +1,604 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Sophisticated typography design
+// Artistic Fraunces headings + Clean Inter body + Literary serif quotes + Cursive dates
+
+// Typography enhancements with optimized base size
+body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px; // Optimized for 100% zoom
+  line-height: 1.6;
+  font-family: var(--bodyFont);
+}
+
+// Base text elements with optimized sizes
+p {
+  font-size: 16px; // Reduced for better proportions
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 1.25rem 0;
+  color: var(--dark);
+  letter-spacing: 0.01em;
+  font-family: var(--bodyFont);
+}
+
+// Strong emphasis
+strong, b {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+// Italic emphasis
+em, i {
+  font-style: italic;
+  font-weight: 450;
+}
+
+// Links in content with distinct styling
+.content a {
+  font-weight: 500;
+  color: var(--secondary);
+  font-size: 16px;
+  
+  &:hover {
+    font-weight: 600;
+    transform: translateY(-1px);
+  }
+}
+
+// List items with optimized font
+li {
+  font-size: 16px; // Optimized for readability
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0.75rem 0;
+}
+
+// Navigation and UI text
+nav, .sidebar {
+  font-weight: 500;
+}
+
+// Page title
+.page-title h1 {
+  font-size: 1.5rem; // Reduced for better proportions
+  font-weight: 700;
+  margin: 0;
+  font-family: var(--headerFont);
+}
+
+// Responsive font scaling
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+// Enhanced flex component system for responsive design
+.flex-component {
+  display: flex;
+}
+
+.desktop-only {
+  display: initial;
+  &.flex-component {
+    display: flex;
+  }
+  @media all and ($mobile) {
+    &.flex-component {
+      display: none;
+    }
+    display: none;
+  }
+}
+
+.mobile-only {
+  display: none;
+  &.flex-component {
+    display: none;
+  }
+  @media all and ($mobile) {
+    &.flex-component {
+      display: flex;
+    }
+    display: initial;
+  }
+}
+
+// Improved link styling with broken link support
+a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: var(--dark);
+    transform: translateY(-1px);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  &.broken {
+    color: var(--secondary);
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    &:hover {
+      opacity: 0.8;
+      transform: translateY(-1px);
+    }
+  }
+}
+
+// Engineer-focused code styling
+pre, code {
+  font-family: var(--codeFont);
+  font-variant-ligatures: common-ligatures;
+}
+
+pre {
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--lightgray);
+  padding: 1.25rem; // Larger padding
+  overflow-x: auto;
+  font-size: 1rem; // Increased from 0.9rem
+  line-height: 1.6; // Better line height
+  font-weight: 400;
+  
+  // Add subtle syntax highlighting enhancement
+  &:hover {
+    border-color: var(--secondary);
+    transition: border-color 0.2s ease;
+  }
+}
+
+// Inline code styling with larger size
+:not(pre) > code {
+  background: var(--lightgray);
+  padding: 0.2rem 0.4rem; // Larger padding
+  border-radius: 4px;
+  font-size: 0.9375rem; // Increased from 0.85em
+  border: 1px solid var(--gray);
+  font-weight: 500; // Medium weight for inline code
+}
+
+// Special styling for quotes - literary EB Garamond for depth and elegance
+blockquote {
+  border-left: 4px solid var(--secondary);
+  background: var(--lightgray);
+  padding: 1.5rem 2rem; // Larger padding
+  margin: 2rem 0; // More margin
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-family: 'EB Garamond', 'Crimson Pro', Georgia, serif; // Literary serif with fallbacks
+  font-size: 1.125rem; // 18px - Reduced for better balance
+  font-weight: 400;
+  line-height: 1.7; // Generous line height for literary feel
+  
+  p {
+    margin: 0;
+    font-family: inherit; // Inherit the quote font
+    font-style: italic;
+  }
+  
+  &::before {
+    font-size: 1.5em; // Larger emoji
+    margin-right: 0.75rem;
+    font-style: normal; // Keep emoji upright
+  }
+}
+
+// Enhanced headings with Fraunces - artistic serif with emotion and character
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15; // Tighter for dramatic serif impact
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: var(--headerFont); // Fraunces
+}
+
+h1 {
+  font-size: 2.25rem; // 36px - Reduced for better 100% zoom
+  font-weight: 900; // Heavy weight for stunning large sizes
+  color: var(--dark);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em; // Tight for dramatic serif effect
+  line-height: 1.1; // Extra tight for display serif
+}
+
+h2 {
+  font-size: 1.875rem; // 30px - Reduced for better proportions
+  font-weight: 700; // Bold for vintage-modern character
+  color: var(--dark);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--lightgray);
+  margin-top: 2rem;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+h3 {
+  font-size: 1.5rem; // 24px - Reduced for better balance
+  font-weight: 600;
+  color: var(--darkgray);
+  margin-top: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.25rem; // 20px - Reduced for better hierarchy
+  font-weight: 600;
+  color: var(--darkgray);
+  margin-top: 1.25rem;
+  letter-spacing: -0.015em;
+}
+
+h5 {
+  font-size: 1.0625rem; // 17px - Slightly reduced
+  font-weight: 500;
+  color: var(--darkgray);
+  margin-top: 1rem;
+  letter-spacing: -0.01em;
+}
+
+h6 {
+  font-size: 1rem; // 16px - Elegant small caps
+  font-weight: 600;
+  color: var(--gray);
+  margin-top: 1rem;
+  letter-spacing: 0.05em; // Moderate spacing for serif small caps
+  text-transform: uppercase;
+}
+
+// Clean table styling
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--lightgray);
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+th {
+  background: var(--lightgray);
+  font-weight: 600;
+  color: var(--dark);
+}
+
+tbody tr:hover {
+  background: var(--highlight);
+}
+
+// Blockquote styling for hot takes
+blockquote {
+  border-left: 4px solid var(--secondary);
+  background: var(--lightgray);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  
+  p {
+    margin: 0;
+  }
+  
+  &::before {
+    font-size: 1.2em;
+    margin-right: 0.5rem;
+  }
+}
+
+// Tag styling for categorization
+.tag {
+  display: inline-block;
+  background: var(--secondary);
+  color: var(--light);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background: var(--tertiary);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Card-like sections for projects
+.project-card, .post-card {
+  background: var(--lightgray);
+  border: 1px solid var(--gray);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: var(--dark);
+  }
+  
+  .meta {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}
+
+// Improved list styling
+ul, ol {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+// Custom HR for section breaks
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gray), transparent);
+  margin: 3rem 0;
+}
+
+// Focus states for accessibility
+button, input, select, textarea, a {
+  &:focus {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+}
+
+// Subtle animations for interactivity
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content {
+  animation: fadeIn 0.5s ease-out;
+}
+
+// Enhanced math/katex display
+.katex-display {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: var(--lightgray);
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+}
+
+// Performance optimization for large content
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+// Poetry styling - simple and elegant
+pre.poetry {
+  font-family: 'Dancing Script', 'Satisfy', 'Kalam', cursive; // Poetic cursive fonts
+  font-size: 1.375rem; // 22px - Larger for cursive readability
+  font-weight: 400;
+  line-height: 1.9; // Extra generous spacing for verse
+  color: var(--dark);
+  background: none; // Clean, no background
+  border: none; // No borders
+  padding: 1.5rem 0; // Simple vertical padding
+  margin: 2rem 0; // Left align the block
+  text-align: left; // Left align poetry
+  max-width: 600px; // Constrain width for readability
+  
+  // Preserve line breaks and spacing
+  white-space: pre-line;
+  letter-spacing: 0.02em; // Slightly wider for cursive
+  
+  // Subtle emphasis without distractions
+  opacity: 0.95;
+}
+
+// Indian Poetry styling - optimized for Devanagari script
+pre.poetry-ind {
+  font-family: 'Noto Sans Devanagari', 'Mangal', 'Kokila', 'Devanagari Sangam MN', serif; // Devanagari fonts
+  font-size: 1.5rem; // 24px - Larger for Devanagari readability
+  font-weight: 400;
+  line-height: 2.1; // Extra spacing for complex Devanagari characters
+  color: var(--dark);
+  background: none; // Clean, no background
+  border: none; // No borders
+  padding: 1.5rem 0; // Simple vertical padding
+  margin: 2rem 0; // Left align the block
+  text-align: left; // Left align poetry
+  max-width: 700px; // Wider for Devanagari text
+  
+  // Preserve line breaks and spacing
+  white-space: pre-line;
+  letter-spacing: 0.01em; // Minimal spacing for Devanagari
+  
+  // Subtle emphasis without distractions
+  opacity: 0.95;
+  
+  // Better rendering for Devanagari
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+// Global date styling - Apply cursive font to all dates
+.content-meta, .section .meta, time[datetime], .meta {
+  font-family: 'Bradley Hand', 'Marker Felt', 'Trebuchet MS', cursive !important;
+  font-size: 1rem !important; // 16px - Larger for cursive readability
+  letter-spacing: 0.02em !important; // Slightly wider spacing for cursive
+  font-style: normal !important; // Keep upright for better readability
+}
+
+// Recent Notes styling - Clean Inter for UI/body with Fraunces contrast
+.recent-notes {
+  margin: 0.5rem 0 0.75rem 0; // Tighter spacing between sections
+  
+  h3 {
+    font-size: 1rem; // 16px - Section titles
+    font-weight: 700; // Bold for high scannability
+    margin-bottom: 0.75rem;
+    margin-top: 0; // Remove top margin
+    color: var(--darkgray);
+    text-transform: uppercase;
+    letter-spacing: 0.05em; // Reduced spacing for better readability
+    font-family: var(--bodyFont); // Inter for clean UI consistency
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 0.625rem 0; // More spacing between items
+    line-height: 1.5;
+  }
+  
+  .desc h3 {
+    font-size: 1.0625rem; // 17px - Reduced article titles
+    font-weight: 500; // Medium weight for readability
+    margin: 0;
+    text-transform: none;
+    letter-spacing: -0.005em; // Slight tightening
+    font-family: var(--bodyFont); // Inter for consistency with body
+    
+    a {
+      color: var(--dark);
+      opacity: 0.9;
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        opacity: 1;
+        color: var(--secondary);
+        font-weight: 600; // Slightly bolder on hover
+        transform: translateY(-1px);
+      }
+    }
+  }
+  
+  .meta {
+    font-size: 1rem; // 16px - Larger for cursive readability
+    font-weight: 400; // Regular weight for subtle appearance
+    color: var(--gray);
+    opacity: 0.8;
+    margin-top: 0.375rem;
+    letter-spacing: 0.02em; // Slightly wider spacing for cursive
+    
+    // Option 1: Wider, more readable cursive fonts
+    font-family: 'Bradley Hand', 'Marker Felt', 'Trebuchet MS', cursive;
+    font-style: normal; // Keep upright for better readability
+    font-weight: 400;
+  }
+  
+  // First recent notes section (minimal top space)
+  &:first-of-type {
+    margin-top: 0;
+  }
+  
+  // Second section with minimal gap
+  &:nth-of-type(2) {
+    margin-top: 0.25rem;
+  }
+}
+
+// Tag page spacing - add space between title and description  
+.page-header + .popover-hint {
+  margin-top: 2rem; // Space between tag title and tag description
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem; // 24px
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem; // 20px
+    margin-top: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1rem; // 16px
+    margin-top: 1.25rem;
+  }
+  
+  h4 {
+    font-size: 0.875rem; // 14px
+  }
+  
+  h5, h6 {
+    font-size: 0.8125rem; // 13px
+  }
+  
+  .project-card, .post-card {
+    padding: 1rem;
+  }
+  
+  table {
+    font-size: 0.875rem;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+  }
+  
+  .recent-notes {
+    margin: 1rem 0;
+    
+    h3 {
+      font-size: 0.8125rem; // 13px
+    }
+    
+    .desc h3 {
+      font-size: 0.8125rem; // 13px
+    }
+    
+    .meta {
+      font-size: 0.6875rem; // 11px
+    }
+  }
+}

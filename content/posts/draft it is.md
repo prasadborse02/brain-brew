@@ -1,5 +1,6 @@
 ---
 title: Side Project - Hot Take Hub
+date: 2025-06-08T12:35:00-00:00
 draft: false
 tags:
   - sports

@@ -1,5 +1,6 @@
 ---
 title: The Half Marathon Plan
+published: 2025-06-10T13:14:00-00:00
 draft: false
 tags:
   - half-marathon
@@ -7,7 +8,7 @@ tags:
 ## 🌟 The Story
 Running a marathon has always been a dream — something I used to think was out of reach. But on June 7, 2025, I ran 4.5 km, and that was the beginning. It wasn’t much, but it was something — my very first real step. 
 
-**Here's what I'm going to do:** I'm publicly committing to run a **half marathon (21.1 km)** on **July 13, 2025**. You're going to watch me document every step of this journey — the training, the struggles, the breakthroughs, and hopefully, the triumph.
+**Here's what I'm going to do:** I'm publicly committing to run a **half marathon (21 km)** on **July 13, 2025**. You're going to watch me document every step of this journey — the training, the struggles, the breakthroughs, and hopefully, the triumph.
 
 This isn't just a training plan. This is me putting myself out there, being vulnerable, and showing you what happens when someone with zero running experience tries to achieve something that seems impossible in just 5 weeks. You'll see my real progress, my real setbacks, and my real emotions as I work toward this goal.
 
@@ -29,12 +30,12 @@ Let me be completely honest about where I'm starting from:
 - I didn’t have a daily or weekly running habit
 - I'm lacking proper running shoes, gear, and stamina
 
-**But here's what I do have:** Raw motivation, a clear goal, and a plan to get there in just over 5 weeks. You're going to watch me transform from a complete beginner to someone who can run 21.1 kilometers. Will I succeed? Will I fail? Let's find out together.
+**But here's what I do have:** Raw motivation, a clear goal, and a plan to get there in just over 5 weeks. You're going to watch me transform from a complete beginner to someone who can run 21 kilometers. Will I succeed? Will I fail? Let's find out together.
 
 ---
 
 ## 🗺️ My Plan - What You'll Watch Me Do
-- **My Goal:** Complete a Half Marathon (21.1 km)
+- **My Goal:** Complete a Half Marathon (21 km)
 - **When I Started:** June 8, 2025
 - **Race Day:** July 13, 2025
 - **How Long I Have:** 5 weeks total
@@ -74,5 +75,5 @@ Let me be completely honest about where I'm starting from:
 
 ### Week 5 (July 7 - July 13): Taper & Race Prep
 **Goal:** Drastically reduce mileage for full recovery and energy storage.
-- **Runs:** Run 1: 4 km (Very Easy), Run 2: 2-3 km (Very Easy), Race Day: Half Marathon (21.1 km)!
+- **Runs:** Run 1: 4 km (Very Easy), Run 2: 2-3 km (Very Easy), Race Day: Half Marathon (21 km)!
 - **Non-Running:** Primarily REST. Light walking, gentle stretching. Focus on carb-loading and hydration.

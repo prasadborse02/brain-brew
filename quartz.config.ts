@@ -3,8 +3,8 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Brain Dump",
-    pageTitleSuffix: "",
+    pageTitle: "Brain Brew",
+    pageTitleSuffix: " • Engineer's Dump",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -13,48 +13,43 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "brainbrew.theprasad.tech",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "published",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Space Grotesk",
-        body: "Inter",
-        code: "JetBrains Mono",
+        header: {
+          name: "Fraunces",
+          weights: [400, 500, 600, 700, 900],
+        },
+        body: {
+          name: "Inter", 
+          weights: [300, 400, 500, 600, 700],
+        },
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
-          light: "#0f0f23",
-          lightgray: "#1a1a2e",
-          gray: "#7209b7",
-          darkgray: "#c4b5fd",
-          dark: "#e5e7eb",
-          secondary: "#00ff9f",
-          tertiary: "#ff6b6b",
-          highlight: "rgba(0, 255, 159, 0.1)",
-          textHighlight: "#4c1d95",
+          light: "#f9fafb",
+          lightgray: "#e2e8f0",
+          gray: "#64748b",
+          darkgray: "#374151",
+          dark: "#111827",
+          secondary: "#2563eb",
+          tertiary: "#10b981",
+          highlight: "rgba(37, 99, 235, 0.1)",
+          textHighlight: "#fbbf24",
         },
-        // darkMode: {
-        //   light: "#2b2b2b",
-        //   lightgray: "#393639",
-        //   gray: "#646464",
-        //   darkgray: "#d4d4d4",
-        //   dark: "#F2E5BC",
-        //   secondary: "#928374",
-        //   tertiary: "#a89984",
-        //   highlight: "rgba(143, 159, 169, 0.15)",
-        //   textHighlight: "#7b6e1b",
-        // },
         darkMode: {
-          light: "#0a0a0f",
-          lightgray: "#16161f",
-          gray: "#8b5cf6",
-          darkgray: "#d8b4fe",
-          dark: "#f3f4f6",
-          secondary: "#10f596",
-          tertiary: "#ef4444",
-          highlight: "rgba(16, 245, 150, 0.1)",
-          textHighlight: "#581c87",
+          light: "#1f2937",
+          lightgray: "#374151",
+          gray: "#9ca3af",
+          darkgray: "#d1d5db",
+          dark: "#f9fafb",
+          secondary: "#3b82f6",
+          tertiary: "#10b981",
+          highlight: "rgba(59, 130, 246, 0.15)",
+          textHighlight: "#fbbf24",
         }
       },
     },
@@ -65,6 +60,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.Poetry(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -75,7 +71,10 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ 
+        markdownLinkResolution: "shortest",
+        lazyLoad: true 
+      }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],

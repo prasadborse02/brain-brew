@@ -1,5 +1,6 @@
 ---
 title: Python Dependency Management
+date: 2025-05-29T15:55:00-00:00
 draft: false
 tags:
   - python

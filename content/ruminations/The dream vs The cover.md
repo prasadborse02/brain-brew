@@ -1,26 +1,22 @@
 ---
 title: The dream vs The cover
+date: 2025-05-31T12:15:00-00:00
 draft: false
 tags:
+  - dream
 ---
 
 Today marks a significant milestone: I've completed one year as a full-time Software Development Engineer. While this is certainly good news, there's a flip side to consider. As I reflect on my 1.75+ years as a corporate employee, I'm reminded that my original dream was always to thrive, give my absolute best at everything I do, and eventually become a founder. The plan was to gain experience while constantly developing myself. Let me walk you through this journey and my current reflections.
 
----
-
 ## Acknowledging What I've Learned
 
 Before diving into my concerns, I must give credit where it's due. Thank you to OnlineSales for providing such an incredible opportunity to learn in a small-scale, fast-paced development environment. In this role, I've learned about communication, risk management, product development and maintenance, and gained real-world knowledge. I've experimented in production, experienced failures, and implemented fixes. In such a short time, I've worked with numerous tech stacks that many developers only dream of touching. This journey has been a roller coaster—and I've lived it and loved it.
-
----
 
 ## The Reality Check
 
 While this experience has been remarkable, it has come at a cost—a cost I've genuinely paid. I've sacrificed personal time repeatedly, stayed awake countless nights, and neglected responsibilities in various relationships for extended periods. I haven't given my body enough time to recover and improve. 
 
 The toll goes deeper than just time management. I've lost interest in many things I once enjoyed—movies don't feel the same anymore, that spontaneous smile and laughter seem to have faded. Even during moments that should be relaxing, I'm constantly reminded of tasks I need to complete. However, it's not too late—I'm working on balancing everything simultaneously, so overall, things seem manageable.
-
----
 
 ## The Heart of the Matter
 
@@ -49,13 +45,9 @@ I try to give my best, but the working hours are hectic, and I feel overly const
 
 Adding to this challenge, since January I've been seeking a job switch, but I've slowed down on that front as well. I need to refocus on this search because landing a better position where I can have somewhat more personal time could unlock many opportunities. Yet I know it's never enough—I have to continuously strive to be better at everything.
 
----
-
 ## What the Dream Actually Is
 
 The dream is multifaceted: to make a meaningful impact on society, excel at everything I pursue, maintain good physical health, spread love, and overcome shyness. Most importantly, the dream is to start something of my own—to experiment during this crucial age when I should embrace failure as a stepping stone to success. I'll explore this vision in greater detail in a future article.
-
----
 
 ## The Cover That Conceals the Dream
 

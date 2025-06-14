@@ -1,29 +1,47 @@
 ---
-title: Currently Brewing ☕️
+title: Currently Brewing
 ---
+
 ![[e17ab9681bec36303a67cd0e13a7b170.gif]]
 
-Hi, Myself Prasad, just a fun-loving, sports-obsessed guy who likes to keep it real on the internet.
+```poetry-ind
+"वाऱ्याशी स्पर्धा नाही माझी, पण मी थांबतही नाही.
+मी चालतोय स्वतःच्या रस्त्याने, कारण माझं गंतव्य वेगळंच आहे."
+```
 
-Lately, I've been exploring tons of new technologies, ideas, and creative experiments.  
-This space is my **digital garden** — a place to grow, document, and share everything I'm learning along the way.
+Hi, I'm Prasad — an engineer, sports enthusiast, and digital creator who believes in learning by building.
 
-You’ll find:
-- **Notes** on topics I'm diving into 📚
-- **Blogs** about tech, [[draft it is|experiments]], and ideas 💡
-- **Personal life moments** that I want to capture and reflect on ✨
+This is my **digital garden**, where I cultivate ideas, document discoveries, and share the journey of continuous learning. Here, thoughts grow organically, experiments take root, and insights bloom over time.
 
-## 🗂️ Current Content
+> "In the digital age, a personal website is not just a portfolio — it's a place to think in public."
 
-### 🛠️ Technology & Development
-- [[part 1|Python Dependency Management]] - Hard-learned lessons about production environments
-- [[groundplay-setup|GroundPlay Local Setup]] - Sports platform database and app configuration
+## Recent Explorations
 
-### ⚽ Sports & Projects
-- [[football-explained-part1|Football Structure Explained]] - How football is organized across Europe
-- [[draft it is|Sports TakeHub Vision]] - Building the ultimate sports prediction platform
-- [[brainpump1-hottake|Sports TakeHub Problem Analysis]] - Technical deep-dive into platform challenges
+### Engineering & Development
+Technical deep-dives, lessons learned, and tools discovered.
 
-This garden isn't meant to be perfect — it's a living, evolving space for thoughts, creativity, and growth. 🌱
+- [[failed-dev-part 1|Python Dependency Management]] — Hard-learned lessons about production environments
+- [[groundplay-setup|GroundPlay Local Setup]] — Sports platform database and app configuration
 
-Thanks for stopping by. Feel free to wander around and get curious. 🛤️
+### Sports & Analytics
+Projects, insights, and the beautiful game's complexity.
+
+- [[football-explained-part1|Football Structure Explained]] — How football is organized across Europe
+- [[draft it is|Sports TakeHub Vision]] — Building the ultimate sports prediction platform
+- [[brainpump1-hottake|Sports TakeHub Problem Analysis]] — Technical deep-dive into platform challenges
+
+### Thoughts & Reflections
+Personal moments, philosophical musings, and creative experiments.
+
+```poetry
+The best way to learn is to build,
+The best way to build is to share,
+The best way to share is to teach.
+```
+---
+
+*This garden grows with every experience. Feel free to explore, get curious, and perhaps plant a seed of your own.*
+
+**Current Focus**: Building sports analytics platforms and exploring the intersection of technology and human behavior.
+
+*Building, learning, sharing — one commit at a time.*

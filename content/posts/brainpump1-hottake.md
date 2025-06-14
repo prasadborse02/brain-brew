@@ -1,6 +1,7 @@
 ---
 title: Sports TakeHub Problem Analysis
-draft: true
+date: 2025-06-08T12:15:00-00:00
+draft: false
 tags:
   - sports
   - project-planning

@@ -1,11 +1,9 @@
 ---
 title: Football across Europe
+published: 2025-05-09T12:15:00-00:00
 ---
-# How Football is Played Across the World (Especially in Europe)
 
 Football (don't call it soccer) is the world’s most popular sport, organized across multiple tiers—from global tournaments between national teams to regional and domestic club competitions.
-
----
 
 **Related Projects:** This knowledge forms the foundation for sports apps like [[groundplay-setup|GroundPlay]] and platforms like [[draft it is|Sports TakeHub]] that aim to enhance the fan experience.
 
@@ -22,14 +20,10 @@ Football (don't call it soccer) is the world’s most popular sport, organized a
   - AFC Asian Cup  
   - Copa América  
 
----
-
 ## 2. FIFA Club Competition
 
 - **FIFA Club World Cup**  
   Annual tournament for continental club champions (e.g., UEFA Champions League winners vs. Copa Libertadores winners).
-
----
 
 ## 3. UEFA Club Competitions (Clubs from Different Countries)
 
@@ -44,8 +38,6 @@ Football (don't call it soccer) is the world’s most popular sport, organized a
 
 - **UEFA Super Cup**  
   One-off match between Champions League and Europa League winners each season.
-
----
 
 ## 4. Domestic Club Football
 
@@ -75,15 +67,11 @@ Football (don't call it soccer) is the world’s most popular sport, organized a
 - **Italy**: Supercoppa Italiana (Serie A vs. Coppa Italia)  
 - **France**: Trophée des Champions (Ligue 1 vs. Coupe de France)  
 
----
-
 ## 5. Season Calendar
 
 - **August–May**: Domestic leagues, domestic cups, and UEFA competitions run simultaneously.  
 - **January**: Some leagues pause for winter break; domestic super cups are often played.  
 - **June–July**: International tournaments (World Cup, Euros, AFCON, Copa América) take place in their multi-year cycles.
-
----
 
 ## 6. Visual Representation of Football Competition Structure
 
@@ -149,5 +137,3 @@ graph TD
     G3 --> G3F[France]
     G3F --> G3F1[Trophée des Champions]
 ```
-
----

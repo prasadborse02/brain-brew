@@ -107,9 +107,10 @@ a {
       padding: 0;
     }
     &.tag-link {
-      &::before {
-        content: "#";
-      }
+      // Removed hashtag symbol for cleaner tag appearance
+      // &::before {
+      //   content: "#";
+      // }
     }
   }
 
