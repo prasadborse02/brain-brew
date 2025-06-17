@@ -25,6 +25,12 @@ Projects, insights, and the beautiful game's complexity.
 - [[draft it is|Sports TakeHub Vision]] — Building the ultimate sports prediction platform
 - [[brainpump1-hottake|Sports TakeHub Problem Analysis]] — Technical deep-dive into platform challenges
 
+### Personal Challenges & Growth
+Real journeys, documented honestly.
+
+- [[half-marathon-plan|The Half Marathon Plan]] — 5-week journey from couch to 21km
+- [[half-marathon-week-1|Week 1 Review]] — When perfect plans meet chaotic reality
+
 ### Thoughts & Reflections
 Personal moments, philosophical musings, and creative experiments.
 
