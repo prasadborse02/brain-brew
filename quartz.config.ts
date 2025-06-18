@@ -13,6 +13,10 @@ const config: QuartzConfig = {
     baseUrl: "brainbrew.theprasad.tech",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "published",
+    author: {
+      name: "Prasad Borse",
+      twitter: "@luminary_lummox",
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,

@@ -24,7 +24,16 @@ const recentNotes = [
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.SocialShare({
+        platforms: ["twitter", "reddit"],
+        usePopup: true,
+      }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    ...recentNotes.map((c) => Component.MobileOnly(c)),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/prasadborse02",
