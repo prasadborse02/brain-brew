@@ -4,8 +4,7 @@ date: 2025-06-08T12:15:00-00:00
 draft: false
 tags:
   - sports
-  - project-planning
-  - mvp
+  - dev
 ---
 # 🧠 Problem Framing for Sports TakeHub Project
 

@@ -5,7 +5,7 @@ draft: false
 tags:
   - python
   - conda
-  - dependency-management
+  - dev
 ---
 ## ⚡ The Incident
 ![[os_kingsmen.jpg|It's hard to accept your mistake]]

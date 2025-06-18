@@ -1,6 +1,8 @@
 ---
 title: GroundPlay setup on local
 date: 2025-05-08T12:15:00-00:00
+tags:
+  - dev
 ---
 
 > A sports platform that brings together players for various sports. Related to [[football-explained-part1|Football structure]] and inspired by the need for better sports community tools.

@@ -4,8 +4,7 @@ date: 2025-06-08T12:35:00-00:00
 draft: false
 tags:
   - sports
-  - project
-  - open-source
+  - dev
 ---
 
 > A sports prediction platform inspired by [[football-explained-part1|Football knowledge]] and addressing the technical challenges outlined in [[brainpump1-hottake|the problem analysis]].

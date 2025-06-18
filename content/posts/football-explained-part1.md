@@ -1,6 +1,8 @@
 ---
 title: Football across Europe
 published: 2025-05-09T12:15:00-00:00
+tags:
+  - sports
 ---
 
 Football (don't call it soccer) is the world’s most popular sport, organized across multiple tiers—from global tournaments between national teams to regional and domestic club competitions.

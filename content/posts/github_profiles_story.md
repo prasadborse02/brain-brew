@@ -3,8 +3,7 @@ title: Tale of 2 GitHub Accounts
 date: 2025-06-08T12:31:00-00:00
 draft: false
 tags:
-  - github
-  - ssh
+  - dev
 ---
 
 > Posted this on medium: https://medium.com/@prasad-borse/the-tale-of-two-github-accounts-a-developers-journey-to-multi-profile-mastery-72e9741b737d
