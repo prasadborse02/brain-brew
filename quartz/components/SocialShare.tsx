@@ -9,7 +9,7 @@ interface SocialShareOptions {
   /**
    * Platforms to show share buttons for
    */
-  platforms: Array<"twitter" | "linkedin" | "reddit" | "facebook">
+  platforms: Array<"twitter" | "linkedin" | "reddit" | "facebook" | "copy">
   /**
    * Whether to show as popup or direct link
    */
@@ -38,12 +38,18 @@ export default ((opts?: Partial<SocialShareOptions>) => {
 
     const shareUrls = {
       twitter: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${shareText}`,
+      linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
       reddit: `https://reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`,
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+      copy: fullUrl,
     }
 
     const platformLabels = {
       twitter: "X",
+      linkedin: "LinkedIn",
       reddit: "Reddit",
+      facebook: "Facebook",
+      copy: "Copy Link",
     }
 
     if (options.platforms.length === 0) {
@@ -52,7 +58,7 @@ export default ((opts?: Partial<SocialShareOptions>) => {
 
     return (
       <div class={`social-share ${displayClass ?? ""}`}>
-        <span class="share-label">Comment on:</span>
+        <span class="share-label">Post your take:</span>
         <div class="share-buttons">
           {options.platforms.map((platform) => (
             <button

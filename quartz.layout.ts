@@ -27,7 +27,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.SocialShare({
-        platforms: ["twitter", "reddit"],
+        platforms: ["twitter", "reddit", "copy"],
         usePopup: true,
       }),
       condition: (page) => page.fileData.slug !== "index",

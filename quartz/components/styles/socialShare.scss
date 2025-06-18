@@ -65,6 +65,14 @@
         color: white;
       }
     }
+
+    &.share-copy {
+      &:hover {
+        background-color: var(--secondary);
+        border-color: var(--secondary);
+        color: white;
+      }
+    }
   }
 }
 
