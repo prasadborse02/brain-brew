@@ -5,8 +5,9 @@ draft: false
 tags:
   - half-marathon
 ---
-
 ## Week 2: When Plans Meet Reality (Again)
+
+![[6A64A968-4438-44FA-A737-26DFD7994D7A_1_201_a.jpeg]]
 
 *Following up on [Week 1's beautiful chaos](half-marathon-week-1.md), Week 2 (June 16-22) was supposed to bring more structure. Spoiler alert: it didn't, but it brought something better - adaptability and some genuine breakthroughs.*
 
