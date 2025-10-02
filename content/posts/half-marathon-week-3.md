@@ -1,7 +1,7 @@
 ---
 title: The Half Marathon - Week 3 Review
-published: 2025-06-29T15:14:00-00:00
-draft: true
+published: 2025-10-03T00:09:00-00:00
+draft: false
 tags:
   - half-marathon
 ---
@@ -93,3 +93,5 @@ Three weeks ago, 15km seemed impossible. Saturday proved it's not just possible 
 Week 3 answered the big question: "Can I handle the longer distances?" The answer came at 15.08km with a time of 1:50:07 and a massive grin. 
 
 One week left. One 17km challenge. Then taper and race day. The half marathon dream is about to become reality. 🏃‍♂️
+
+Tbh, I have written this back in June/July but never got the time to post it, And complete the series.
