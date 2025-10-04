@@ -9,6 +9,8 @@ tags:
 
 *The final push—one last leap before race day!*
 
+Following the [Week 3](half-marathon-week-3.md)
+
 **Week 4 Verdict**: 31.2 km total, including the toughest run of the entire training cycle.
 **Week 5 Verdict**: A strategic rest week with 25.4 km total, culminating in the half-marathon itself.
 

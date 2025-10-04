@@ -6,7 +6,7 @@ tags:
   - half-marathon
 ---
 
-I completed the race, but there was a lot to learn from the experience. Here are my final thoughts on the journey.
+I completed the race, but there was a lot to learn from the experience. Here are my final thoughts on the journey. If you haven't read the previous review [Week 4-5](half-marathon-week-final.md).
 
 ![[Pasted image 20251003004826.png]]
 
