@@ -30,6 +30,7 @@ Real journeys, documented honestly.
 
 - [[half-marathon-plan|The Half Marathon Plan]] — 5-week journey from couch to 21km
 - [[half-marathon-week-1|Week 1 Review]] — When perfect plans meet chaotic reality
+- [[two-flower-plant|And Some Day to day events]] — That just seed my life
 
 ### Thoughts & Reflections
 Personal moments, philosophical musings, and creative experiments.

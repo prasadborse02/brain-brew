@@ -4,6 +4,7 @@ published: 2025-06-22T10:00:00-00:00
 draft: true
 tags:
   - sports
+  - seed
 ---
 
 > *Beyond the July 13th half marathon lies the real journey - transforming from a beginner runner into a disciplined athlete capable of both running strong half marathons and mastering swimming.*

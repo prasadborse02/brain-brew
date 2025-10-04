@@ -3,6 +3,7 @@ title: Gayatri and the Two-Flower Plant
 published: 2025-08-11T15:14:00-00:00
 draft: false
 tags:
+  - seed
 ---
 ```poetry
 To,

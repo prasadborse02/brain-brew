@@ -118,15 +118,21 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       }
     }
 
-    if (showTags) {
-      const localTags = details.tags
-        .filter((tag) => !removeTags.includes(tag))
-        .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
+    // Create links to tag files in content/tags/ folder
+    const localTags = details.tags.filter((tag) => !removeTags.includes(tag))
 
-      tags.push(...localTags.filter((tag) => !tags.includes(tag)))
+    for (const tag of localTags) {
+      const tagFileSlug = simplifySlug(("tags/" + tag) as FullSlug)
 
-      for (const tag of localTags) {
-        links.push({ source: source, target: tag })
+      // If a tag file exists, link to it directly
+      if (validLinks.has(tagFileSlug)) {
+        links.push({ source: source, target: tagFileSlug })
+      } else if (showTags) {
+        // Otherwise, create virtual tag nodes (old behavior)
+        if (!tags.includes(tagFileSlug)) {
+          tags.push(tagFileSlug)
+        }
+        links.push({ source: source, target: tagFileSlug })
       }
     }
   }

@@ -3,6 +3,7 @@ title: Where do I see myself in next 5 years ?
 published: 2025-06-29T10:00:00-00:00
 draft: false
 tags:
+  - seed
 ---
 It's a deceptively simple question that cuts through all the noise: *Where do I see myself in five years?* Yet this question has the power to expose every fear, ambition, and contradiction we carry within us.
 

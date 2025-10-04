@@ -3,7 +3,7 @@ title: The dream vs The cover
 date: 2025-05-31T12:15:00-00:00
 draft: false
 tags:
-  - dream
+  - seed
 ---
 
 Today marks a significant milestone: I've completed one year as a full-time Software Development Engineer. While this is certainly good news, there's a flip side to consider. As I reflect on my 1.75+ years as a corporate employee, I'm reminded that my original dream was always to thrive, give my absolute best at everything I do, and eventually become a founder. The plan was to gain experience while constantly developing myself. Let me walk you through this journey and my current reflections.
