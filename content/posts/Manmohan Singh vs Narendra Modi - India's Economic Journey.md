@@ -570,7 +570,7 @@ Neither government was simply "better." They solved different problems but creat
 
 ## PART 10: ECONOMIC INDICATORS COMPARISON TABLE
 
-*[INSERT IMAGE 17: Comprehensive comparison table with all key metrics]*
+![[Pasted image 20251225011800.png]]
 
 | Metric | Singh (2004-14) | Modi (2014-25) | Winner |
 |--------|-----------------|----------------|--------|
